@@ -68,6 +68,7 @@ body * {
   position: relative;
   width: 64px;
   margin: 4px auto;
+  transition: left 1s;
 }
 
 #switch button {
