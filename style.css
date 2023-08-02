@@ -81,7 +81,7 @@ body * {
   z-index: 1;
   top: 50%;
   transform: translateY(-50%);
-  animation: slide-out 0.4s forwards;
+  animation: slide-out 0.4s;
 }
 
 .light #switch button {
@@ -150,6 +150,16 @@ ul li a:hover {
 
 #social-links a:hover {
   background: var(--highlight-color);
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  filter: invert(100%);
+}
+
+.light .icon {
+  filter: invert(0%);
 }
 
 footer {
