@@ -56,8 +56,6 @@ body * {
   width: 150px;
   display: block;
   margin: auto;
-  border-radius: 50%;
-  border: 2px solid gray;
 }
 
 #profile p {
